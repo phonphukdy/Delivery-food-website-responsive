@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Queries Example</title>
+    <style>
+        @media (width<=375px){
+            body{
+                margin: 0;
+                padding: 0;
+            /* }
+            .bg{
+                width: 200px;
+                height: 50px;
+                border: 0 black;
+                border-radius: 20px;
+                background-color: black;
+                color: white;
+                transition: .4s ease-in;
+            }
+            .bg:hover{
+                background-color: blue;
+            } */
+            .bg_color{
+                background-color: #307a59;
+            }
+            .bg_screnn{
+                height: 800px;
+                position: relative;
+                display: flex;
+                justify-content: center;
+            }
+            .container{
+                margin-top: 250px;
+                background-color: black;
+                position: absolute;
+                display: grid;
+                grid-template-rows: 100px 100px;
+                row-gap: 10px;
+            }
+            .logo{
+                background-color: blue;
+                width: 200px;
+                height: 100px;
+            }
+            .logo_text{
+                background-color: aqua;
+                width: 200px;
+                height: 100px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="bg_screnn bg_color">
+        <div class="container">
+            <div class="logo">logo</div>
+            <div class="logo_text">text</div>
+        </div>
+    </div>
+</body>
+</html>
