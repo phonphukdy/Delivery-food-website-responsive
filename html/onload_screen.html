@@ -4,60 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Container Queries Example</title>
-    <style>
-        @media (width<=375px){
-            body{
-                margin: 0;
-                padding: 0;
-            /* }
-            .bg{
-                width: 200px;
-                height: 50px;
-                border: 0 black;
-                border-radius: 20px;
-                background-color: black;
-                color: white;
-                transition: .4s ease-in;
-            }
-            .bg:hover{
-                background-color: blue;
-            } */
-            .bg_color{
-                background-color: #307a59;
-            }
-            .bg_screnn{
-                height: 800px;
-                position: relative;
-                display: flex;
-                justify-content: center;
-            }
-            .container{
-                margin-top: 250px;
-                background-color: black;
-                position: absolute;
-                display: grid;
-                grid-template-rows: 100px 100px;
-                row-gap: 10px;
-            }
-            .logo{
-                background-color: blue;
-                width: 200px;
-                height: 100px;
-            }
-            .logo_text{
-                background-color: aqua;
-                width: 200px;
-                height: 100px;
-            }
-        }
-        
-    </style>
+    <link rel="stylesheet" href="../css/onload_screen.css">
 </head>
 <body>
     <div class="bg_screnn bg_color">
         <div class="container">
-            <div class="logo">logo</div>
-            <div class="logo_text">text</div>
+            <div class="logo_container_pic">
+                <div class="logo_pic">
+                    <img src="../image/bowl_logo_color_1.png" alt="" class="inside_logo_pic">
+                </div>
+            </div>
+            <div class="logo_text">
+                <div class="inside_logo_text">
+                    <p><b>Kupa</b></p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
