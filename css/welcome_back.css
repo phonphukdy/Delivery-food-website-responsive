@@ -8,12 +8,23 @@
     body {
         margin: 0px;
         padding: 0;
-        display: flex;
-        justify-content: center;
-        background-color: rgb(208, 120, 120);
+        /* background-color: rgb(208, 120, 120); */
     }
+    .login_element{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    /* text setup */
     .text{
         font-family: Tahoma, sans-serif;
+    }
+    .text_color p{
+        color: #c1c0c0;
     }
     .bg_color_test {
         background-color: yellow; /* #307a59; */
@@ -21,24 +32,31 @@
     .bg_color_test_2 {
         background-color: rgb(78, 46, 46); /* #307a59; */
     }
-    /* Test */
+    /* background color */
     .bg_screen {
         width: 400px;
         height: 400px;
         background-color: #322158;
     }
+    .bg_field{
+        background-color: #fafafa;
+    }
 
+    /* Core element */
     .container{
         width: 312px;
     }
     .first_block{
         margin-top: 20px;
-        background-color: #322158;
     }
     .second_block{
         /* width: 400px;
         height: 400px; */
-        background-color: #6643af;
+        /* background-color: #6643af; */
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
     }
 
 
@@ -58,7 +76,7 @@
     }
     /* Welcome back text zone */
     .welcomeback_container{
-        background-color: #14c694;
+        /* background-color: #14c694; */
     }
     .welcomeback_text{
         margin-bottom: 5px;
@@ -69,7 +87,7 @@
     /* Email and Password field */
     .email_text{
         /* background-color: #6643af; */
-        margin-top: 20px;
+        margin-top: 25px;
         margin-bottom: 5px;
     }
     .email_field_container{
@@ -83,7 +101,6 @@
         position: relative;
         width: 312px;
         height: 30px;
-        background-color: rgb(115, 142, 121);
         border: 0px rgb(255, 255, 255);
         border-radius: 5px;
     }
@@ -97,7 +114,7 @@
     /* Password field */
     .password_text{
         /* background-color: #6643af; */
-        margin-top: 10px;
+        margin-top: 15px;
         margin-bottom: 5px;
     }
     .password_field_container{
@@ -111,7 +128,6 @@
         position: relative;
         width: 312px;
         height: 30px;
-        background-color: rgb(115, 142, 121);
         border: 0px rgb(255, 255, 255);
         border-radius: 5px;
     }
@@ -122,12 +138,23 @@
         left: 12px;
         top: 5px;
     }
+    .eye_password_hide img{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        opacity: 0.3;
+    }
     .forget_password{
-        margin-top: 5px;
+        margin-top: 15px;
+    }
+    .forget_password a{
+        color: red;
     }
     /* Logni button */
     .login_button{
-        margin-top: 20px;
+        margin-top: 30px;
         position: relative;
         width: 312px;
         height: 33px;
@@ -138,6 +165,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        height: 40px;
     }
     .inside_login_button a{
         color: white;
@@ -146,17 +174,63 @@
         display: flex;
         justify-content: center;
         gap: 7px;
-        margin-top: 10px;
+        margin-top: 20px;
         margin-bottom: 30px;
     }
     /* insection element */
+    .insection_line_screen{
+        width: 360px;
+        /* background-color: #322158; */
+        position: absolute;
+        left: -1px;
+        opacity: 0.5;
+    }
     .insection_element{
-        background-color: bisque;
+        /* background-color: bisque; */
         display: flex;
         justify-content: center;
         gap: 10px;
     }
     .line{
-        width: 200px;
+        width: 145px;
+    }
+    /* Google and apple login option */
+    .google_login_container{
+        /* background-color: #14c694; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 40px;
+    }
+    .google_logo{
+        width: 20px;
+        height: 20px;
+        /* background-color: black; */
+    }
+    .google_logo img{
+        width: 20px;
+        height: 20px;
+    }
+    .apple_login_container{
+        /* background-color: #14c694; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 40px;
+    }
+    .apple_logo{
+        width: 20px;
+        height: 20px;
+        /* background-color: rgb(243, 227, 227); */
+    }
+    .apple_logo img{
+        width: 20px;
+        height: 20px;
     }
 }
