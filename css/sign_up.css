@@ -1,0 +1,245 @@
+@media (width<=375px){
+    p{
+        margin: 0px; /* #307a59; */
+    }
+    a{
+        text-decoration: none;
+    }
+    body {
+        margin: 0px;
+        padding: 0;
+        /* background-color: rgb(208, 120, 120); */
+    }
+    .login_element{
+        width: 360px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    /* text setup */
+    .text{
+        font-family: Tahoma, sans-serif;
+    }
+    .text_color p{
+        color: #c1c0c0;
+    }
+    .bg_color_test {
+        background-color: yellow; /* #307a59; */
+    }
+    .bg_color_test_2 {
+        background-color: rgb(78, 46, 46); /* #307a59; */
+    }
+    /* background color */
+    .bg_screen {
+        width: 400px;
+        height: 400px;
+        background-color: #322158;
+    }
+    .bg_field{
+        background-color: #fafafa;
+    }
+
+    /* Core element */
+    .container{
+        width: 312px;
+    }
+    
+    .first_block{
+        margin-top: 20px;
+    }
+    .second_block{
+        /* width: 400px;
+        height: 400px; */
+        /* background-color: #6643af; */
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+
+
+    /* Get back button */
+    .get_back_btn{
+        /* background-color: aliceblue; */
+        width: 50px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .pic{
+
+        width: 25px;
+    }
+    /* Welcome back text zone */
+    .welcomeback_container{
+        /* background-color: #14c694; */
+    }
+    .welcomeback_text{
+        margin-bottom: 5px;
+    }
+    .welcomeback_text p{
+        font-size: 20px;
+    }
+    /* Email and Password field */
+    .email_text{
+        /* background-color: #6643af; */
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+    .email_field_container{
+        /* background-color: #322158; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+    }
+    .email_border{
+        position: relative;
+        width: 312px;
+        height: 30px;
+        border: 0px rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .email_field{
+        width: 280px;
+        height: 20px;
+        position: absolute;
+        left: 12px;
+        top: 5px;
+    }
+    /* Password field */
+    .password_text{
+        /* background-color: #6643af; */
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .password_field_container{
+        /* background-color: #322158; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+    }
+    .password_border{
+        position: relative;
+        width: 312px;
+        height: 30px;
+        border: 0px rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .password_field{
+        width: 280px;
+        height: 20px;
+        position: absolute;
+        left: 12px;
+        top: 5px;
+    }
+    .eye_password_hide img{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 20px;
+        top: 5px;
+        opacity: 0.3;
+    }
+    .forget_password{
+        margin-top: 15px;
+    }
+    .forget_password a{
+        color: red;
+    }
+    /* Logni button */
+    .login_button{
+        margin-top: 30px;
+        position: relative;
+        width: 312px;
+        height: 33px;
+        background-color: rgb(115, 142, 121);
+        border: 0px rgb(255, 255, 255);
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+    }
+    .inside_login_button a{
+        color: white;
+    }
+    .dont_have_an_account_container{
+        display: flex;
+        justify-content: center;
+        gap: 7px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    /* insection element */
+    .insection_line_screen{
+        width: 360px;
+        /* background-color: #322158; */
+        position: absolute;
+        left: -1px;
+        opacity: 0.5;
+    }
+    .insection_element{
+        /* background-color: bisque; */
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .line{
+        width: 145px;
+    }
+    /* Google and apple login option */
+    .google_login_container{
+        /* background-color: #14c694; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 40px;
+    }
+    .google_logo{
+        width: 20px;
+        height: 20px;
+        /* background-color: black; */
+    }
+    .google_logo img{
+        width: 20px;
+        height: 20px;
+    }
+    .apple_login_container{
+        /* background-color: #14c694; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        height: 40px;
+    }
+    .apple_logo{
+        width: 20px;
+        height: 20px;
+        /* background-color: rgb(243, 227, 227); */
+    }
+    .apple_logo img{
+        width: 20px;
+        height: 20px;
+    }
+    /*  footer */
+    .footer{
+        /* background-color: #7c58c9; */
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
