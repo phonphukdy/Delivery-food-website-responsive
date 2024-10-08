@@ -69,9 +69,15 @@
         align-items: center;
         margin-top: 50px;
         margin-bottom: 25px;
+        position: relative;
+    }
+    .get_back_btn a{
+        width: 30px;
+        height: 30px;
+        /* background-color: black; */
+        position: absolute;
     }
     .pic{
-
         width: 25px;
     }
     /* Welcome back text zone */
@@ -98,18 +104,20 @@
         height: 40px;
     }
     .email_border{
-        position: relative;
-        width: 312px;
+        /* position: relative; */
+        width: 312px;   
         height: 30px;
-        border: 0px rgb(255, 255, 255);
+        border: none;
         border-radius: 5px;
+        background-color: #fafafa;
+        /* padding: 10px 30px; */
     }
-    .email_field{
-        width: 280px;
-        height: 20px;
-        position: absolute;
-        left: 12px;
-        top: 5px;
+    .field{
+        width: 290px;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 10px;
+        background-color: #fafafa;
     }
     /* Password field */
     .password_text{

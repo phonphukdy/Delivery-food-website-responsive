@@ -10,7 +10,7 @@
         padding: 0;
         /* background-color: rgb(208, 120, 120); */
     }
-    .login_element{
+    .sign_up_element{
         width: 360px;
         display: flex;
         flex-direction: column;
