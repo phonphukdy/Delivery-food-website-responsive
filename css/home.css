@@ -1,0 +1,170 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
+.home-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.icons .notification {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Delivery Information */
+.delivery-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.delivery-info p {
+    font-weight: bold;
+}
+
+.distance p {
+    background-color: #fff;
+    color: #4CAF50;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Featured Meal */
+.featured-meal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.featured-meal img {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.meal-info h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.meal-info small {
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.meal-info button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Top of the Week Section */
+.section-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.top-week {
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal-item {
+    text-align: center;
+    width: 30%;
+}
+
+.meal-item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.meal-item p {
+    font-size: 14px;
+    color: #333;
+}
+
+.meal-item span {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #f0f0f0;
+    border-top: 2px solid #ccc;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 400px;
+}
+
+.bottom-nav a {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.bottom-nav a:hover {
+    color: #4CAF50;
+}
